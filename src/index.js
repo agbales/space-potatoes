@@ -1,5 +1,4 @@
-require("dotenv").config();
-const apiKey = config.API_KEY || process.env.API_KEY;
+const apiKey = config.API_KEY;
 
 function renderPage(date) {
   const url = `https://api.nasa.gov/neo/rest/v1/feed?start_date=${date}&end_date=${date}&api_key=${apiKey}`;

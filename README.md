@@ -4,5 +4,12 @@ Using NASA's NeoWs (Near Earth Object Web Service) to give a list of all objects
 
 This project was created as part of a learning series I'm hosting for coders coming from the humanities and arts.
 
-Live website: [GitHub Pages](https://agbales.github.io/space-potatoes/)
-Data: [NASA](https://api.nasa.gov/)
+To run locally, create a `config.js` file in the root directory. Add this code to the file, replacing `<your_key>` with your own NASA API key:
+
+```
+const config = {
+  API_KEY: "<your_key>",
+};
+```
+
+[NASA](https://api.nasa.gov/)
