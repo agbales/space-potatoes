@@ -1,3 +1,4 @@
+require("dotenv").config();
 const apiKey = config.API_KEY || process.env.API_KEY;
 
 function renderPage(date) {
